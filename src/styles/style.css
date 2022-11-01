@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Nabla&family=PT+Sans&family=Quicksand&family=Rubik+Dirt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Kanit:wght@300&family=Nabla&family=PT+Sans&family=Quicksand&family=Rubik+Dirt&display=swap');
+/* font-family: 'Nabla', cursive; */
+/* font-family: 'Dosis', sans-serif; */
+
+:root{
+    --blue- : #D4F6CC;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+   font-family: 'Dosis', sans-serif; 
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 1em 2em;
+    position: sticky;
+    top: 0;
+    flex-direction: row;
+    background-color: var(--blue-);
+    box-shadow: 0 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+#logo{
+    font-family: 'Nabla', cursive;;
+    font-size: 2em;
+    text-decoration: none;
+}   
+
+#articles{
+    margin: 1em;
+}
+
+article-title{
+    font-size: 2em;
+    font-style: italic;
+}
+
+.news-item{
+    padding: 1em;
+}
+
+footer{
+    padding: 0 0 1em 2em;
+}
+
+
+@media (max-width:434px){
+    header{
+        flex-direction: column;
+    }
+}
